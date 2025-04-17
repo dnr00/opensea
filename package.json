@@ -1,0 +1,19 @@
+{
+  "name": "opensea",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/buyNft.ts"
+  },
+  "dependencies": {
+    "@fordefi/web3-provider": "^0.2.5",
+    "axios": "^1.8.4",
+    "dotenv": "^16.0.3",
+    "ethers": "^6.7.0",
+    "opensea-js": "^7.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
